@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D91B9E421A823F5001AC369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91B9E321A823F5001AC369 /* AppDelegate.swift */; };
+		1D91B9E621A823F5001AC369 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91B9E521A823F5001AC369 /* ViewController.swift */; };
+		1D91B9E921A823F5001AC369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D91B9E721A823F5001AC369 /* Main.storyboard */; };
+		1D91B9EB21A823F5001AC369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D91B9EA21A823F5001AC369 /* Assets.xcassets */; };
+		1D91B9EE21A823F5001AC369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D91B9EC21A823F5001AC369 /* LaunchScreen.storyboard */; };
+		1D91B9F921A823F5001AC369 /* cantulator1123Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91B9F821A823F5001AC369 /* cantulator1123Tests.swift */; };
+		1D91BA0421A823F5001AC369 /* cantulator1123UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91BA0321A823F5001AC369 /* cantulator1123UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D91B9F521A823F5001AC369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D91B9D821A823F5001AC369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D91B9DF21A823F5001AC369;
+			remoteInfo = cantulator1123;
+		};
+		1D91BA0021A823F5001AC369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D91B9D821A823F5001AC369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D91B9DF21A823F5001AC369;
+			remoteInfo = cantulator1123;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D91B9E021A823F5001AC369 /* cantulator1123.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cantulator1123.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D91B9E321A823F5001AC369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D91B9E521A823F5001AC369 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D91B9E821A823F5001AC369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D91B9EA21A823F5001AC369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D91B9ED21A823F5001AC369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D91B9EF21A823F5001AC369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D91B9F421A823F5001AC369 /* cantulator1123Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cantulator1123Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D91B9F821A823F5001AC369 /* cantulator1123Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cantulator1123Tests.swift; sourceTree = "<group>"; };
+		1D91B9FA21A823F5001AC369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D91B9FF21A823F5001AC369 /* cantulator1123UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cantulator1123UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D91BA0321A823F5001AC369 /* cantulator1123UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cantulator1123UITests.swift; sourceTree = "<group>"; };
+		1D91BA0521A823F5001AC369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D91B9DD21A823F5001AC369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D91B9F121A823F5001AC369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D91B9FC21A823F5001AC369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D91B9D721A823F5001AC369 = {
+			isa = PBXGroup;
+			children = (
+				1D91B9E221A823F5001AC369 /* cantulator1123 */,
+				1D91B9F721A823F5001AC369 /* cantulator1123Tests */,
+				1D91BA0221A823F5001AC369 /* cantulator1123UITests */,
+				1D91B9E121A823F5001AC369 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D91B9E121A823F5001AC369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D91B9E021A823F5001AC369 /* cantulator1123.app */,
+				1D91B9F421A823F5001AC369 /* cantulator1123Tests.xctest */,
+				1D91B9FF21A823F5001AC369 /* cantulator1123UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D91B9E221A823F5001AC369 /* cantulator1123 */ = {
+			isa = PBXGroup;
+			children = (
+				1D91B9E321A823F5001AC369 /* AppDelegate.swift */,
+				1D91B9E521A823F5001AC369 /* ViewController.swift */,
+				1D91B9E721A823F5001AC369 /* Main.storyboard */,
+				1D91B9EA21A823F5001AC369 /* Assets.xcassets */,
+				1D91B9EC21A823F5001AC369 /* LaunchScreen.storyboard */,
+				1D91B9EF21A823F5001AC369 /* Info.plist */,
+			);
+			path = cantulator1123;
+			sourceTree = "<group>";
+		};
+		1D91B9F721A823F5001AC369 /* cantulator1123Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1D91B9F821A823F5001AC369 /* cantulator1123Tests.swift */,
+				1D91B9FA21A823F5001AC369 /* Info.plist */,
+			);
+			path = cantulator1123Tests;
+			sourceTree = "<group>";
+		};
+		1D91BA0221A823F5001AC369 /* cantulator1123UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D91BA0321A823F5001AC369 /* cantulator1123UITests.swift */,
+				1D91BA0521A823F5001AC369 /* Info.plist */,
+			);
+			path = cantulator1123UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D91B9DF21A823F5001AC369 /* cantulator1123 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D91BA0821A823F5001AC369 /* Build configuration list for PBXNativeTarget "cantulator1123" */;
+			buildPhases = (
+				1D91B9DC21A823F5001AC369 /* Sources */,
+				1D91B9DD21A823F5001AC369 /* Frameworks */,
+				1D91B9DE21A823F5001AC369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cantulator1123;
+			productName = cantulator1123;
+			productReference = 1D91B9E021A823F5001AC369 /* cantulator1123.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D91B9F321A823F5001AC369 /* cantulator1123Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D91BA0B21A823F5001AC369 /* Build configuration list for PBXNativeTarget "cantulator1123Tests" */;
+			buildPhases = (
+				1D91B9F021A823F5001AC369 /* Sources */,
+				1D91B9F121A823F5001AC369 /* Frameworks */,
+				1D91B9F221A823F5001AC369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D91B9F621A823F5001AC369 /* PBXTargetDependency */,
+			);
+			name = cantulator1123Tests;
+			productName = cantulator1123Tests;
+			productReference = 1D91B9F421A823F5001AC369 /* cantulator1123Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D91B9FE21A823F5001AC369 /* cantulator1123UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D91BA0E21A823F5001AC369 /* Build configuration list for PBXNativeTarget "cantulator1123UITests" */;
+			buildPhases = (
+				1D91B9FB21A823F5001AC369 /* Sources */,
+				1D91B9FC21A823F5001AC369 /* Frameworks */,
+				1D91B9FD21A823F5001AC369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D91BA0121A823F5001AC369 /* PBXTargetDependency */,
+			);
+			name = cantulator1123UITests;
+			productName = cantulator1123UITests;
+			productReference = 1D91B9FF21A823F5001AC369 /* cantulator1123UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D91B9D821A823F5001AC369 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = s20171103193;
+				TargetAttributes = {
+					1D91B9DF21A823F5001AC369 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					1D91B9F321A823F5001AC369 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1D91B9DF21A823F5001AC369;
+					};
+					1D91B9FE21A823F5001AC369 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1D91B9DF21A823F5001AC369;
+					};
+				};
+			};
+			buildConfigurationList = 1D91B9DB21A823F5001AC369 /* Build configuration list for PBXProject "cantulator1123" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D91B9D721A823F5001AC369;
+			productRefGroup = 1D91B9E121A823F5001AC369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D91B9DF21A823F5001AC369 /* cantulator1123 */,
+				1D91B9F321A823F5001AC369 /* cantulator1123Tests */,
+				1D91B9FE21A823F5001AC369 /* cantulator1123UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D91B9DE21A823F5001AC369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D91B9EE21A823F5001AC369 /* LaunchScreen.storyboard in Resources */,
+				1D91B9EB21A823F5001AC369 /* Assets.xcassets in Resources */,
+				1D91B9E921A823F5001AC369 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D91B9F221A823F5001AC369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D91B9FD21A823F5001AC369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D91B9DC21A823F5001AC369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D91B9E621A823F5001AC369 /* ViewController.swift in Sources */,
+				1D91B9E421A823F5001AC369 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D91B9F021A823F5001AC369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D91B9F921A823F5001AC369 /* cantulator1123Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D91B9FB21A823F5001AC369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D91BA0421A823F5001AC369 /* cantulator1123UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D91B9F621A823F5001AC369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D91B9DF21A823F5001AC369 /* cantulator1123 */;
+			targetProxy = 1D91B9F521A823F5001AC369 /* PBXContainerItemProxy */;
+		};
+		1D91BA0121A823F5001AC369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D91B9DF21A823F5001AC369 /* cantulator1123 */;
+			targetProxy = 1D91BA0021A823F5001AC369 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D91B9E721A823F5001AC369 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D91B9E821A823F5001AC369 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D91B9EC21A823F5001AC369 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D91B9ED21A823F5001AC369 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D91BA0621A823F5001AC369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D91BA0721A823F5001AC369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D91BA0921A823F5001AC369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDDST5N9N4;
+				INFOPLIST_FILE = cantulator1123/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = s20171103193.cantulator1123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D91BA0A21A823F5001AC369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDDST5N9N4;
+				INFOPLIST_FILE = cantulator1123/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = s20171103193.cantulator1123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D91BA0C21A823F5001AC369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDDST5N9N4;
+				INFOPLIST_FILE = cantulator1123Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = s20171103193.cantulator1123Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cantulator1123.app/cantulator1123";
+			};
+			name = Debug;
+		};
+		1D91BA0D21A823F5001AC369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDDST5N9N4;
+				INFOPLIST_FILE = cantulator1123Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = s20171103193.cantulator1123Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cantulator1123.app/cantulator1123";
+			};
+			name = Release;
+		};
+		1D91BA0F21A823F5001AC369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDDST5N9N4;
+				INFOPLIST_FILE = cantulator1123UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = s20171103193.cantulator1123UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cantulator1123;
+			};
+			name = Debug;
+		};
+		1D91BA1021A823F5001AC369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDDST5N9N4;
+				INFOPLIST_FILE = cantulator1123UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = s20171103193.cantulator1123UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cantulator1123;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D91B9DB21A823F5001AC369 /* Build configuration list for PBXProject "cantulator1123" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D91BA0621A823F5001AC369 /* Debug */,
+				1D91BA0721A823F5001AC369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D91BA0821A823F5001AC369 /* Build configuration list for PBXNativeTarget "cantulator1123" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D91BA0921A823F5001AC369 /* Debug */,
+				1D91BA0A21A823F5001AC369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D91BA0B21A823F5001AC369 /* Build configuration list for PBXNativeTarget "cantulator1123Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D91BA0C21A823F5001AC369 /* Debug */,
+				1D91BA0D21A823F5001AC369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D91BA0E21A823F5001AC369 /* Build configuration list for PBXNativeTarget "cantulator1123UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D91BA0F21A823F5001AC369 /* Debug */,
+				1D91BA1021A823F5001AC369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D91B9D821A823F5001AC369 /* Project object */;
+}
