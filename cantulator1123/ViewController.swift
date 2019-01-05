@@ -35,9 +35,13 @@ class ViewController: UIViewController {
     var templeoper = Stack<Int>()
     var str = ""
     var judge = 0
+    var flag = 0
     var temp:Double = 0
     var left:Double = 0
     var right:Double = 0
+    var temp1 = 0
+    var judge1 = 0
+    var a:Double = 0
     
     
     
@@ -46,42 +50,109 @@ class ViewController: UIViewController {
     @IBAction func button1(_ sender: Any) {
         result.text = result.text! + "1"
         str = str + "1"
+        flag = flag + 1
     }
     @IBAction func button2(_ sender: Any) {
         result.text = result.text! + "2"
         str = str + "2"
+        flag = flag + 1
     }
     @IBAction func button3(_ sender: Any) {
         result.text = result.text! + "3"
         str = str + "3"
+        flag = flag + 1
     }
     @IBAction func button4(_ sender: Any) {
         result.text = result.text! + "4"
         str = str + "4"
+        flag = flag + 1
     }
     @IBAction func button5(_ sender: Any) {
         result.text = result.text! + "5"
         str = str + "5"
+        flag = flag + 1
     }
     @IBAction func button6(_ sender: Any) {
         result.text = result.text! + "6"
         str = str + "6"
+        flag = flag + 1
     }
     @IBAction func button7(_ sender: Any) {
         result.text = result.text! + "7"
         str = str + "7"
+        flag = flag + 1
     }
     @IBAction func button8(_ sender: Any) {
         result.text = result.text! + "8"
         str = str + "8"
+        flag = flag + 1
     }
     @IBAction func button9(_ sender: Any) {
         result.text = result.text! + "9"
         str = str + "9"
+        flag = flag + 1
     }
     @IBAction func button0(_ sender: Any) {
         result.text = result.text! + "0"
         str = str + "0"
+        flag = flag + 1
+    }
+    
+    @IBAction func buttonAC(_ sender: Any) {
+        result.text = ""
+        str = ""
+        temp = 0
+        left = 0
+        right = 0
+        judge = 0
+        flag = 0
+        temp1 = 0
+    }
+    @IBAction func buttondelete(_ sender: Any) {
+        let mystr = result.text
+        
+        if str == ""{
+            oper.pop()
+            flag = flag - 1
+            a = number.pop()!
+            str = "\(a)"
+        }
+        else{
+            number.push(_element: Double(str)!)
+            if judge1 == 0 {
+                temp = number.pop()!
+                if temp != 0{
+                    temp1 = Int(temp) / 10
+                    number.push(_element: Double(temp1))
+                    if temp1 == 0{
+                        str = ""
+                        number.pop()
+                    }
+                }
+                judge1 = 1
+            }
+            else{
+                temp = number.pop()!
+                if temp != 0{
+                    temp1 = Int(temp) / 10
+                    number.push(_element: Double(temp1))
+                    if temp1 == 0{
+                        str = ""
+                        number.pop()
+                        
+                    }
+                }
+            }
+            
+            flag = flag - 1
+        }
+        
+        let index2 = mystr!.index(str.startIndex, offsetBy: flag)
+        result.text = mystr?.substring(to: index2)
+    }
+    @IBAction func buttonpoint(_ sender: Any) {
+        result.text = result.text! + "."
+        str = str + "."
     }
     
     @IBAction func buttonadd(_ sender: Any) {
@@ -89,6 +160,7 @@ class ViewController: UIViewController {
         str = ""
         result.text = result.text! + "+"
         oper.push(_element: 1)
+        flag = flag + 1
         
     }
     
@@ -97,6 +169,7 @@ class ViewController: UIViewController {
         str = ""
         result.text = result.text! + "-"
         oper.push(_element: 2)
+        flag = flag + 1
         
     }
     
@@ -105,6 +178,7 @@ class ViewController: UIViewController {
         str = ""
         result.text = result.text! + "×"
         oper.push(_element: 3)
+        flag = flag + 1
         
     }
     
@@ -113,6 +187,7 @@ class ViewController: UIViewController {
         str = ""
         result.text = result.text! + "÷"
         oper.push(_element: 4)
+        flag = flag + 1
         
     }
     
@@ -140,13 +215,14 @@ class ViewController: UIViewController {
                         left = number.pop()!
                     }
                 }
-                
             }
             else{
                 temple.push(_element: right)
                 right = left
                 if oper.isEmpty != true{
                     left = number.pop()!
+                    temp = left * right
+                    temple.push(_element: temp)
                 }else{
                     temple.push(_element: right)
                 }
@@ -172,7 +248,6 @@ class ViewController: UIViewController {
                     if oper.isEmpty != true{
                         left = number.pop()!
                     }
-                    
                 }
                 else{
                     temp = left - right
@@ -185,7 +260,6 @@ class ViewController: UIViewController {
         }
         
         result.text = "\(temp)"
-        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
