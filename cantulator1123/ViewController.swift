@@ -221,8 +221,9 @@ class ViewController: UIViewController {
                 right = left
                 if oper.isEmpty != true{
                     left = number.pop()!
-                    temp = left * right
-                    temple.push(_element: temp)
+                    //temp = left * right
+                    //temple.push(_element: temp)
+                    
                 }else{
                     temple.push(_element: right)
                 }
